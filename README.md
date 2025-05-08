@@ -1,1 +1,2 @@
 # Random-Password-Generator
+This is a Random Password Generator built using HTML, CSS, and JavaScript. It generates secure, customizable passwords based on user-selected criteria such as length and character types (uppercase, lowercase, numbers, symbols). I created this project to practice and strengthen my JavaScript logic-building skills. It helped me improve my understanding of string manipulation, loops, and conditional logic. The UI is simple and user-friendly, making it easy to generate strong passwords quickly.

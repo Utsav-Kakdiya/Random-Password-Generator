@@ -96,6 +96,8 @@ input[type="checkbox"] {
 
     body {
         background-attachment: fixed;
+        background-image: linear-gradient(to bottom right, purple,#001d6d);
+
     }
 
     .main {
@@ -124,6 +126,10 @@ input[type="checkbox"] {
 }
 
 @media screen and (max-width : 565px) {
+    body{
+        background-image: linear-gradient(to bottom right, purple,#001d6d);
+    }
+    
     h1 {
         font-size: 35px;
     }

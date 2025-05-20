@@ -47,6 +47,7 @@ generate.addEventListener("click", () => {
 
     //Fallback condition.
     if (len <= 0) {
+        output.classList.remove("veryweak", "strong", "weak");
         output.innerText = "Please enter the length of the password.";
         return;
     }//Showcase whether yout password is very weak, weak or strong. 

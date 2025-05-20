@@ -51,6 +51,7 @@ generate.addEventListener("click", () => {
         return;
     }//Showcase whether yout password is very weak, weak or strong. 
     else if (len <= 8) {
+        output.classList.remove("weak", "strong");
         output.classList.add("veryweak");
         showpass.innerHTML = "<b>!Very Weak Password.</b>"
     }

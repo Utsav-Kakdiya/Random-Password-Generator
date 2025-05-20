@@ -41,6 +41,7 @@ generate.addEventListener("click", () => {
 
     //Fallback condition.
     if (bucket.length === 0) {
+        output.classList.remove("veryweak", "strong", "weak");
         output.innerText = "Please select at least one checkbox.";
         return;
     }
